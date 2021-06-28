@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -24,8 +19,74 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-heading {
+  font-size: 35px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  color: #1DA1F2;
+}
+
+.sub-heading {
+  font-size: 20px ;
+}
+
+.text-field {
+  margin-right: 5px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.keyword-search-button {
+  font-size: 15px;
+}
+
+.success-message {
+  color: darkolivegreen;
+}
+
+.form {
+  margin: 20px;
+}
+
+.emotion-button-section {
+  display: inline;
+  
+}
+
+.emotion-button {
+  font-size: 15px;
+}
+
+.emotion-button-section :hover {
+  font-size: 15px;
+  color: rgb(59, 177, 212);
+}
+.emotion-button-section :active {
+  font-size: 20px;
+}
+
+
+.tweets-section {
+  margin-left: 30%;
+  margin-right: 30%;
+  /* margin: 0 auto;
+  float: none;
+  display: block;
+  position: relative;
+  width: 100%; */
+}
+
+/* .tweet-main {
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin-left: 50%;
+} */
+
+
+.piechart {
+  width: 30%;
 }
 
 @keyframes App-logo-spin {
